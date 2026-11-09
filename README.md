@@ -38,13 +38,14 @@ A lightweight PowerShell 7 profile that gives a zsh-like experience (autosuggest
 │   └── Microsoft.PowerShell_profile.ps1   # the PowerShell 7 profile
 ├── install.ps1                            # installer: modules + profile (with backup)
 ├── INSTALL.md                             # installation, uninstall and troubleshooting
+├── LICENSE  
 └── README.md
 ```
 
 ## Quick start
 
 ```powershell
-git clone https://github.com/<your-user>/better-powershell.git
+git clone https://github.com/lorenzovarese/better-powershell.git
 cd better-powershell
 pwsh -ExecutionPolicy Bypass -File .\install.ps1
 ```
